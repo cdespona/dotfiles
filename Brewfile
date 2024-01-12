@@ -3,6 +3,7 @@ tap "homebrew/bundle"
 tap "microsoft/mssql-release"
 tap "romkatv/powerlevel10k"
 tap "skyscanner/tools"
+tap "sdkman/tap"
 
 # Binaries
 brew "ansible"
@@ -33,6 +34,7 @@ brew "wget"
 brew "microsoft/mssql-release/msodbcsql"
 brew "microsoft/mssql-release/mssql-tools"
 brew "skyscanner/tools/turbolift"
+brew "sdkman-cli"
 
 # Fonts
 cask "devtoys"

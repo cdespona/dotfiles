@@ -122,5 +122,5 @@ alias git-clean-local-branches='git branch --merged | egrep -v "(^\*|master|main
 alias code=~/IdeaProjects
 alias i.='(idea $PWD &>/dev/null &)'
 alias md5sum='md5 -r'
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
+[[ -s "${SDKMAN_DIR}/bin/sdkman-init.sh" ]] && source "${SDKMAN_DIR}/bin/sdkman-init.sh"
