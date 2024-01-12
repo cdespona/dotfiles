@@ -50,6 +50,7 @@ cask 'gather'
 cask 'zoom'
 cask 'raycast'
 cask 'rectangle'
+cask 'elgato-stream-deck'
 
 # Fonts
 cask 'font-lato'
