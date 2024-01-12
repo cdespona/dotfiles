@@ -47,7 +47,7 @@ After backing up your old Mac you may now follow these install instructions to s
     cd ~/.dotfiles && ./fresh.sh
     ```
 
-5. [Create gpg key for Github](https://docs.github.com/es/authentication/managing-commit-signature-verification/generating-a-new-gpg-key#generating-a-gpg-key)
+5. [Create gpg key for Github](https://docs.github.com/es/authentication/managing-commit-signature-verification/generating-a-new-gpg-key#generating-a-gpg-key) and adapt .gitconfig values at home directory using this [template](.gitconfig)
 6. Restart your computer to finalize the process
 
 Your Mac is now ready to use!
