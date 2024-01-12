@@ -1,0 +1,13 @@
+[core]
+	excludesfile = /Users/<username>/.gitignore_global
+	autocrlf = input
+[user]
+	email = <e-mail>
+	name = <name>
+	signingkey = <gpg_key>
+[gpg]
+	program = /usr/local/bin/gpg
+[commit]
+	gpgsign = true
+[push]
+	default = current
