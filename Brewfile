@@ -32,6 +32,7 @@ brew "unzip"
 brew "wget"
 brew "skyscanner/tools/turbolift"
 brew "sdkman-cli"
+brew "awscli"
 
 # Fonts
 cask "devtoys"
@@ -51,6 +52,7 @@ cask 'zoom'
 cask 'raycast'
 cask 'rectangle'
 cask 'elgato-stream-deck'
+cask 'notion'
 
 # Fonts
 cask 'font-lato'
